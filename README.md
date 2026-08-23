@@ -29,14 +29,7 @@ Das Projekt verfügt über eine automatische Playlist-Rotation, manuelle Direktw
 ## Ordnungsstruktur
 
 ```text
-m5cardputer-iobroker-monitor/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── pictures/
-│   └── preview.png      <-- Hier liegt das Vorschaubild
-└── src/
-    └── main.cpp
+## Tastatur Kuerzel
 
 T $\rightarrow$ Außentemperatur (inkl. Gefühlt & Luftfeuchtigkeit innen)
 W $\rightarrow$ Windgeschwindigkeit (mit Umrechnung $\text{m/s} \to \text{km/h}$)
