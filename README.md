@@ -33,3 +33,16 @@ const char* password = "DEIN_WLAN_PASSWORT";
 
 const String iobroker_ip = "192.168.176.146";
 const String iobroker_port = "8082";
+
+## Tastenbelegung (Keyboard Shortcuts)
+Sobald das Gerät läuft, kannst du mit den folgenden Tasten direkt in die jeweilige Ansicht springen
+
+(löst einen 30-sekündigen Hold-Modus aus):
+
+T $\rightarrow$ Außentemperatur (inkl. Gefühlt & Luftfeuchtigkeit innen)
+W $\rightarrow$ Windgeschwindigkeit (mit Umrechnung $\text{m/s} \to \text{km/h}$)
+R $\rightarrow$ Regen aktuell (inkl. Regen-Gesamtmenge)
+B $\rightarrow$ Batterie SOC (%)Lizenz
+
+
+Dieses Projekt steht unter der MIT License – siehe die LICENSE-Datei für Details.
