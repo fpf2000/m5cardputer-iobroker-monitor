@@ -25,6 +25,10 @@ Das Projekt verfügt über eine automatische Playlist-Rotation, manuelle Direktw
 - Lokales WLAN mit Verbindung zum ioBroker-Server
 
 ---
+## Arduino IDE
+Kopieren Sie die unten stehende M5Stack-Boardverwaltungs-URL in das Feld „Additional Board Manager URLs“ und speichern Sie die Datei.:
+https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json 
+Im Board Manager dann die M5Stack Arduino vollständig installieren
 
 ## Tastatur Kuerzel
 
