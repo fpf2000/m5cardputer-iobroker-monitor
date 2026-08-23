@@ -1,0 +1,18 @@
+{
+  "port": 8087,
+  "auth": false,
+  "secure": false,
+  "bind": "0.0.0.0",
+  "certPublic": "",
+  "certPrivate": "",
+  "certChained": "",
+  "defaultUser": "admin",
+  "onlyAllowWhenUserIsOwner": false,
+  "webInstance": "*",
+  "leEnabled": false,
+  "leUpdate": false,
+  "leCheckPort": 80,
+  "dataSource": "",
+  "allDatapoints": false,
+  "accessControlAllowOrigin": "*"
+}
