@@ -2,6 +2,9 @@
 
 Ein kompakter, smarter Monitoring-Client für den **M5Cardputer**, der Wetterdaten und Energiestatistiken (z. B. Batterie-SOC) direkt von einer **ioBroker**-Instanz über die HTTP REST API (z. B. den `simple-api`-Adapter) abruft und darstellt.
 
+![M5Cardputer ioBroker Monitor Vorschau](pictures/Cardputer_komplett_Temp_k.png)
+![M5Cardputer ioBroker Monitor Vorschau](pictures/cardputerdisplay.gif)
+
 Das Projekt verfügt über eine automatische Playlist-Rotation, manuelle Direktwahl per Tastaturkürzel, eine automatische Display-Helligkeitsregelung nach Umgebungslicht (Lux), integriertes Energiespar-Timeout sowie optische und akustische Warnsignale bei Grenzwertüberschreitungen (z. B. Frost, Hitze, Sturm oder niedriger Batteriestand).
 
 ---
@@ -23,21 +26,17 @@ Das Projekt verfügt über eine automatische Playlist-Rotation, manuelle Direktw
 
 ---
 
-## Konfiguration
+## Ordnungsstruktur
 
-Vor dem Flashen (z. B. über Arduino IDE oder PlatformIO) müssen die folgenden Zeilen in `src/main.cpp` an deine Umgebung angepasst werden:
-
-```cpp
-const char* ssid     = "DEIN_WLAN_NAME";
-const char* password = "DEIN_WLAN_PASSWORT";
-
-const String iobroker_ip = "192.168.176.146";
-const String iobroker_port = "8082";
-
-## Tastenbelegung (Keyboard Shortcuts)
-Sobald das Gerät läuft, kannst du mit den folgenden Tasten direkt in die jeweilige Ansicht springen
-
-(löst einen 30-sekündigen Hold-Modus aus):
+```text
+m5cardputer-iobroker-monitor/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── pictures/
+│   └── preview.png      <-- Hier liegt das Vorschaubild
+└── src/
+    └── main.cpp
 
 T $\rightarrow$ Außentemperatur (inkl. Gefühlt & Luftfeuchtigkeit innen)
 W $\rightarrow$ Windgeschwindigkeit (mit Umrechnung $\text{m/s} \to \text{km/h}$)
