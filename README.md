@@ -26,10 +26,10 @@ Das Projekt verfügt über eine automatische Playlist-Rotation, manuelle Direktw
 
 ---
 
-## Ordnungsstruktur
+## Tastatur Kuerzel
 
 ```text
-## Tastatur Kuerzel
+
 
 T $\rightarrow$ Außentemperatur (inkl. Gefühlt & Luftfeuchtigkeit innen)
 W $\rightarrow$ Windgeschwindigkeit (mit Umrechnung $\text{m/s} \to \text{km/h}$)
