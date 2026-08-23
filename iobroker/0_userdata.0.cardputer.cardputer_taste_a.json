@@ -1,0 +1,23 @@
+{
+  "common": {
+    "name": "cardputer_taste_a",
+    "desc": "Manuell erzeugt",
+    "role": "state",
+    "type": "boolean",
+    "read": true,
+    "write": true,
+    "def": false
+  },
+  "type": "state",
+  "native": {},
+  "from": "system.adapter.admin.0",
+  "user": "system.user.admin",
+  "ts": 1787392621597,
+  "_id": "0_userdata.0.cardputer.cardputer_taste_a",
+  "acl": {
+    "object": 1636,
+    "state": 1636,
+    "owner": "system.user.admin",
+    "ownerGroup": "system.group.administrator"
+  }
+}
